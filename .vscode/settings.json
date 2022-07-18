@@ -1,4 +1,4 @@
 {
-  "window.zoomLevel": 0,
-  "prettier.configPath": "./.prettierrc.json"
+  "liveServer.settings.root": "/out",
+  "window.zoomLevel": 3
 }
