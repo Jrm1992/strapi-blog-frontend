@@ -16,11 +16,14 @@ exports[`<LogoLink /> should match snapshot 1`] = `
 }
 
 .c1 > img {
-  height: 3rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
 }
 
 .c0 {
-  color: #0A1128;
+  color: #000000;
+  line-height: 1.2;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
@@ -31,6 +34,7 @@ exports[`<LogoLink /> should match snapshot 1`] = `
   <a
     class="c1"
     href="#target"
+    target="_self"
   >
     <img
       alt="Olá mundo"

@@ -5,13 +5,13 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    footerHtml: `<p><a href="https://beacons.page/otaviomiranda">Feito com ❤ por Otávio Miranda</a></p>`,
+    footerHtml: `<p><a href="https://beacons.page/otaviomiranda">Foi Feito com ❤ por Otávio Miranda</a></p>`,
   },
 } as Meta;
 
 export const Template: Story<FooterProps> = (args) => {
   return (
-    <div>
+    <div style={{ marginTop: '200px' }}>
       <Footer {...args} />
     </div>
   );
